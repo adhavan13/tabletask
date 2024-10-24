@@ -1,0 +1,62 @@
+.stay {
+  position: absolute;
+  right: 10px;
+  background-color: white;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse; 
+  border-spacing: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* This will ensure the table cells collapse without any spacing */
+    border-spacing: 0;
+    border: none; /* Remove the entire table border */
+  }
+  
+  tr {
+    border-bottom: none; 
+  }
+  
+  td {
+    margin: 0;
+    padding: 5px;
+    vertical-align: middle;
+    border-bottom: none; 
+  }
+  
+  th {
+    border-bottom: none;
+  }
+  
+  .heading{
+    border-bottom: 1px solid #E4E8ee;
+  }
+  .pagination-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    margin-top: 10px; 
+    margin-right: 10px;
+  }
+  
+  .pagination-info {
+    display: flex;
+    align-items: center; 
+    margin-right: 20px; 
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .pagination-buttons button {
+    margin-left: 10px; 
+  }
+  
+  
